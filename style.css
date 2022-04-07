@@ -1,0 +1,104 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-color: aqua;
+}
+#lt {
+  position: relative;
+  height: 100%;
+  width: 70%;
+  background-image: url(./nb.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: blueviolet;
+}
+#rt {
+  height: 100%;
+  width: 30%;
+  background-color: blue;
+}
+#rttop {
+  height: 45%;
+  width: 100%;
+  display: flex;
+}
+#ltrt {
+  width: 70%;
+  height: 100%;
+  background-color: yellow;
+}
+#rtrt {
+  width: 30%;
+  height: 100%;
+  background-color: green;
+}
+#mrt {
+  height: 27.5%;
+  width: 100%;
+  background-color: red;
+}
+#brt {
+  height: 27.5%;
+  width: 100%;
+  background-image: url(./ads.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-color: orange; */
+}
+#over1 {
+  height: 27.5%;
+  width: 30%;
+  background-color: pink;
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  /* background-position: center;
+  background-size: fit;
+  background: url(./as.jpg); */
+  overflow: hidden;
+}
+#img1 {
+   bottom: -30%;
+   left: -26%;
+   position: absolute;
+   /* transform: rotateX(90deg); */
+   transform: rotate(90deg);
+   /* transform: scaleX(0); */
+   /* width: 100%; */
+   height: 157%;
+   background-size: contain;
+   /* background-position: center; */
+}
+#ltover{
+   height: 100%;
+   width: 100%;
+   /* background-color: rgba(0, 0, 0, 0.319); */
+}
+#over1_2{
+   height: 100%;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.377);
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   z-index: 2;
+}
+#over2 {
+  height: 30%;
+  width: 40%;
+  /* background-color: black; */
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+}
